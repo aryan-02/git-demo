@@ -14,7 +14,11 @@ int main(void)
 
     if(strcmp(day, "Saturday") == 0)
     {
-        printf("It's Saturday!");
+        printf("It's Saturday!\n");
+    }
+    else
+    {
+        printf("It's not Saturday ☹️\n");
     }
     return 0;
 }
