@@ -11,6 +11,10 @@ int main(void)
     printf("What day is it? ");
     char day[15];
     scanf("%s", day);
-    
+
+    if(strcmp(day, "Saturday") == 0)
+    {
+        printf("It's Saturday!");
+    }
     return 0;
 }
