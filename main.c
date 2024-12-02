@@ -12,13 +12,18 @@ int main(void)
     char day[15];
     scanf("%s", day);
 
+
     if(strcmp(day, "Saturday") == 0)
     {
         printf("It's Saturday!\n");
     }
+    else if(strcmp(day, "Sunday") == 0)
+    {
+        printf("It's Sunday!\n");
+    }
     else
     {
-        printf("It's not Saturday ☹️\n");
+        printf("It's not a weekend ☹️\n");
     }
     return 0;
 }
