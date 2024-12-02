@@ -3,11 +3,13 @@
 
 int main(void)
 {
+    // Ask user for name
     char userName[100];
     printf("Enter your name: ");
     scanf("%s", userName);
     printf("Hello %s\n", userName);
 
+    // Ask user for day
     printf("What day is it? ");
     char day[15];
     scanf("%s", day);
