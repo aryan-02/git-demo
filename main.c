@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -6,5 +7,10 @@ int main(void)
     printf("Enter your name: ");
     scanf("%s", userName);
     printf("Hello %s\n", userName);
+
+    printf("What day is it? ");
+    char day[15];
+    scanf("%s", day);
+    
     return 0;
 }
